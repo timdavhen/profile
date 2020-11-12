@@ -1,0 +1,106 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap');
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card-white {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .card-white {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .card-white {
+    width: 300px;
+  }
+}
+
+body {
+  font-weight: 700;
+  font-family: "Open Sans", sans-serif;
+  background-color: #f5f8fc;
+  display: block;
+  line-height: 1.6;
+}
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #6983aa;
+}
+
+h1 {
+  color: #6983aa;
+}
+
+h2 {
+  color: #8566aa;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: #206a5d;
+  text-decoration: none;
+}
+
+ a:hover {
+  color: #6983aa;
+  opacity: 1;
+ }
+
+.card-white {
+  background-color: white;
+  width: 700px;
+  margin: 24px auto;
+  padding: 30px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  border-radius: 4px;
+}
+
+.btn-green {
+  background-color: #206a5d;
+  border-radius: 4px;
+  color: white;
+  padding: 16px 24px;
+  border: 1px solid transparent;
+}
+
+.btn-green:hover {
+  background-color: white;
+  color: #206a5d;
+  border: 1px solid #206a5d;
+}
+
+#profile {
+  border-radius: 50%;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#intro p {
+  margin-bottom: 32px;
+}
+
+#footer a {
+  font-size: 32px;
+}
